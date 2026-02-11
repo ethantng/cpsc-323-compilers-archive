@@ -1,0 +1,41 @@
+$$
+[* NO FUNCTION DECLARATIONS *]
+$$ 
+[* Identifier declarations *]
+integer i, sum, num;
+integer limit, count, temp;
+boolean isEven, done;
+$$
+
+i = 0;
+sum = 0;
+limit = 10;
+count = 0;
+done = false;
+
+while (i < limit) {
+    temp = i / 2;
+    if (temp == 0) {
+        isEven = true;
+        sum = sum + i;
+        print(i);
+    }
+    else {
+        isEven = false;
+    }
+    endif
+
+    i = i + 1;
+}
+endwhile
+
+print(sum);
+
+num = 5;
+if (num > 0) {
+    print(num);
+}
+endif
+
+done = true;
+$$

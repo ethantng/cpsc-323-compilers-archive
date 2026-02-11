@@ -1,0 +1,9 @@
+$$
+[* No Function Declarations *]
+$$
+integer x, total;
+$$
+x = 1; total = 0;
+while (x <= 5) { total = total + x; x = x + 1; } endwhile
+print(total);
+$$
